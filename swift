@@ -68,6 +68,7 @@ import UIKit
             self.present(alert, animated: true, completion: nil)
         }
         }
+        
         @IBAction func deleteAllClicked(_ sender: Any) {
             self.userNameText.text = ""
             self.passwordText.text = ""
